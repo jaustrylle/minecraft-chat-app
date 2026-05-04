@@ -3,8 +3,6 @@ import '/flutter_flow/flutter_flow_animations.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
-import 'dart:math';
-import 'dart:ui';
 import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
@@ -43,6 +41,7 @@ class _LoginWidgetState extends State<LoginWidget>
 
     _model.passwordTextController ??= TextEditingController();
     _model.passwordFocusNode ??= FocusNode();
+    _model.passwordVisibility = false;
 
     animationsMap.addAll({
       'containerOnPageLoadAnimation1': AnimationInfo(
@@ -738,11 +737,13 @@ class _LoginWidgetState extends State<LoginWidget>
                                     if (user == null) {
                                       return;
                                     }
-
-                                    context.goNamedAuth(
-                                        MainFeedWidget.routeName,
-                                        context.mounted);
-                                  },
+                
+                                  if (!context.mounted) return;
+                                  
+                                  context.goNamedAuth(
+                                    MainFeedWidget.routeName,
+                                    true,
+                                  ),
                                   text: 'Login',
                                   options: FFButtonOptions(
                                     height: 48,
@@ -793,18 +794,38 @@ class _LoginWidgetState extends State<LoginWidget>
                               padding:
                                   EdgeInsetsDirectional.fromSTEB(2, 24, 0, 12),
                               child: FFButtonWidget(
-                                onPressed: () async {
-                                  GoRouter.of(context).prepareAuthEvent();
-                                  final user = await authManager
-                                      .signInWithGoogle(context);
-                                  if (user == null) {
-                                    return;
-                                  }
-
-                                  context.goNamedAuth(MainFeedWidget.routeName,
-                                      context.mounted);
-                                },
-                                text: 'Continue as guest',
+                              onPressed: () async {
+                                final email = _model.emailTextController.text.trim();
+                                final password = _model.passwordTextController.text.trim();
+                              
+                                if (email.isEmpty || password.isEmpty) {
+                                  ScaffoldMessenger.of(context).showSnackBar(
+                                    SnackBar(content: Text('Email and password required')),
+                                  );
+                                  return;
+                                }
+                              
+                                GoRouter.of(context).prepareAuthEvent();
+                              
+                                final user = await authManager.signInWithEmail(
+                                  context,
+                                  email,
+                                  password,
+                                );
+                              
+                                if (user == null) {
+                                  ScaffoldMessenger.of(context).showSnackBar(
+                                    SnackBar(content: Text('Login failed')),
+                                  );
+                                  return;
+                                }
+                              
+                                context.goNamedAuth(
+                                  MainFeedWidget.routeName,
+                                  context.mounted,
+                                );
+                              },
+                                text: 'Continue with Google',
                                 options: FFButtonOptions(
                                   width: 200,
                                   height: 40,
