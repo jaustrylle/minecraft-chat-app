@@ -685,12 +685,44 @@ class _CreateAccountWidgetState extends State<CreateAccountWidget>
                             children: [
                               FFButtonWidget(
                                 onPressed: () async {
+                                  final email = _model.emailTextController.text.trim();
+                                  final password = _model.passwordTextController.text.trim();
+                                
+                                  if (email.isEmpty || password.isEmpty) {
+                                    ScaffoldMessenger.of(context).showSnackBar(
+                                      SnackBar(content: Text('Email and password required')),
+                                    );
+                                    return;
+                                  }
+                                
+                                  GoRouter.of(context).prepareAuthEvent();
+                                
+                                  final user = await authManager.createAccountWithEmail(
+                                    context,
+                                    email,
+                                    password,
+                                  );
+                                
+                                  if (user == null) {
+                                    ScaffoldMessenger.of(context).showSnackBar(
+                                      SnackBar(content: Text('Account creation failed')),
+                                    );
+                                    return;
+                                  }
+                                
+                                  // User exists, insert profile
                                   await UsersTable().insert({
-                                    'email': _model.emailTextController.text,
-                                    'display_name': currentUserUid,
-                                    'shortDescription':
-                                        _model.passwordTextController.text,
+                                    'id': user.uid,
+                                    'email': email,
+                                    'display_name': email.split('@').first,
                                   });
+                                
+                                  if (!context.mounted) return;
+                                
+                                  context.goNamedAuth(
+                                    MainFeedWidget.routeName,
+                                    true,
+                                  );
                                 },
                                 text: 'Create Account',
                                 options: FFButtonOptions(
