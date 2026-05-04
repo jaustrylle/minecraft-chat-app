@@ -705,22 +705,23 @@ class _CreateStoryWidgetState extends State<CreateStoryWidget> {
                           ].divide(SizedBox(width: 12)),
                         ),
                         FFButtonWidget(
-                          onPressed: () async {
-                            await UserStoriesTable().insert({
-                              'user': currentUserUid,
-                              'storyVideo': _model
-                                  .uploadedLocalFile_uploadedVideo
-                                  .originalFilename,
-                              'storyDescription':
-                                  _model.storyDescriptionTextController.text,
-                              'storyPostedAt':
-                                  supaSerialize<DateTime>(getCurrentTimestamp),
-                              'likes': '0',
-                              'numComments': 0,
-                              'isOwner': true,
-                              'storyPhoto':
-                                  _model.uploadedFileUrl_uploadedPhoto,
-                            });
+                        onPressed: () async {
+                          final photoUrl = _model.uploadedFileUrl_uploadedPhoto;
+                          final videoFile = _model.uploadedFileUrl_uploadDataMeg;
+                        
+                          await UserStoriesTable().insert({
+                            'user_id': currentUserUid,
+                            'storyVideo': videoFile,
+                            'storyPhoto': photoUrl,
+                            'storyDescription': _model.storyDescriptionTextController.text.trim(),
+                            'storyPostedAt': supaSerialize<DateTime>(getCurrentTimestamp),
+                            'likes': 0,
+                            'numComments': 0,
+                            'isOwner': true,
+                          });
+                        
+                          context.pushNamed(MainFeedWidget.routeName);
+                        });
 
                             context.pushNamed(MainFeedWidget.routeName);
                           },
