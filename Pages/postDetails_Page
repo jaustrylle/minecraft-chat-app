@@ -70,8 +70,10 @@ class _PostDetailsPageWidgetState extends State<PostDetailsPageWidget> {
                 model: _model.postDetailsBaseModel,
                 updateCallback: () => safeSetState(() {}),
                 updateOnChange: true,
-                child: PostDetailsBaseWidget(),
-              ),
+                child: PostDetailsBaseWidget(
+                      postReference: widget.postReference,
+                      userRecord: widget.userRecord,
+                    ),
             ),
           ),
         ],
