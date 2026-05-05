@@ -1,14 +1,5 @@
-App is currently unclear:
-1. chat app
-feed = chats + messages
-
-2. social feed app
-feed = posts/messages from all users
-
-3. hybrid app
-feed = messages + images + chat system
-(what we'll likely choose)
-Messenger-style app with media feed capability
+Decision Log:
+1. We are making a hybrid Messenger-style app with media feed capability where feed = messages + images + chat system.
 
 Future improvements:
 proper ProfileService
