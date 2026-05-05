@@ -9,3 +9,10 @@ feed = posts/messages from all users
 feed = messages + images + chat system
 (what we'll likely choose)
 Messenger-style app with media feed capability
+
+Future improvements:
+proper ProfileService
+FeedRepository
+ChatRepository
+caching layer (so you don’t re-query users 1000 times)
+realtime strategy that won’t lag
