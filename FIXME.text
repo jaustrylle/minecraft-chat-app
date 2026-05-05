@@ -16,3 +16,15 @@ FeedRepository
 ChatRepository
 caching layer (so you don’t re-query users 1000 times)
 realtime strategy that won’t lag
+
+🔹 1. Fix database schema
+
+so profiles + chats + messages stop being Map-heavy
+
+🔹 2. Add real “Posts” system to profile tabs
+
+so “Posts” actually shows user messages/images
+
+🔹 3. Add caching layer
+
+so profile + avatars don’t re-fetch everywhere
