@@ -17,3 +17,12 @@ utilities
 conversations
 messages
 users
+
+To run on Chrome:
+flutter run -d chrome
+
+To run on Android emulator:
+flutter devices
+flutter emulators
+flutter emulators --launch <emulator_id>
+flutter run
