@@ -36,3 +36,11 @@ Navigator.push(
     builder: (_) => PostDetailsPageWidget(postId: post.id),
   ),
 );
+
+Supabase streams in multiple pages
+FlutterFlow-style widget-heavy structure
+App is freezing during first Supabase initialization OR first StreamBuilder
+
+final Stream<List<Map<String, dynamic>>> _storiesStream = supabase
+Supabase.instance.client.from(...).stream(...)
+NOT GOOD FOR LOADING
