@@ -25,4 +25,5 @@ To run on Android emulator:
 flutter devices
 flutter emulators
 flutter emulators --launch <emulator_id>
+  flutter emulators --launch Medium_Phone_API_36.1
 flutter run
