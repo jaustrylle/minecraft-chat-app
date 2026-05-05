@@ -8,3 +8,4 @@ feed = posts/messages from all users
 3. hybrid app
 feed = messages + images + chat system
 (what we'll likely choose)
+Messenger-style app with media feed capability
