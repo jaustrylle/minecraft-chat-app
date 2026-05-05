@@ -1,0 +1,11 @@
+05/05/2026 - 2:00 PM:
+App built.
+App installed.
+App ran.
+
+"Skipped XXX frames!" (due to emulator)
+"Width is zero. 0,0" (UI possibly broken)
+"source value 8 is obsolete" (Gradle-specific)
+
+-----------------------------------------------------------------------------------
+
