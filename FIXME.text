@@ -28,3 +28,11 @@ so “Posts” actually shows user messages/images
 🔹 3. Add caching layer
 
 so profile + avatars don’t re-fetch everywhere
+
+Standardize navigation!
+Navigator.push(
+  context,
+  MaterialPageRoute(
+    builder: (_) => PostDetailsPageWidget(postId: post.id),
+  ),
+);
