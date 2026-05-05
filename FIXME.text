@@ -35,3 +35,18 @@ App is freezing during first Supabase initialization OR first StreamBuilder
 final Stream<List<Map<String, dynamic>>> _storiesStream = supabase
 Supabase.instance.client.from(...).stream(...)
 NOT GOOD FOR LOADING
+
+Troubleshoot:
+1. Android errors
+
+Start the emulator ->
+flutter emulators --launch Medium_Phone_API_36.1
+
+Check for emulator ->
+flutter devices
+
+Look for ->
+emulator-5554 • Android SDK built for x86 • android
+
+Run the app ->
+flutter run
