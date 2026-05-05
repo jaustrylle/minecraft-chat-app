@@ -1,0 +1,10 @@
+App is currently unclear:
+1. chat app
+feed = chats + messages
+
+2. social feed app
+feed = posts/messages from all users
+
+3. hybrid app
+feed = messages + images + chat system
+(what we'll likely choose)
