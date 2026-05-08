@@ -7,6 +7,7 @@ environment:
   sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
+  go_router: ^14.0.0
   flutter:
     sdk: flutter
 
@@ -19,12 +20,12 @@ dependencies:
   chewie: 1.11.3
   collection: 1.19.1
   cross_file: 0.3.5+1
+  crypto: ^3.0.7
   easy_debounce: 2.0.1
   equatable: 2.0.7
   file_picker: 10.1.9
   flutter_animate: 4.5.0
   font_awesome_flutter: 10.7.0
-  go_router: 12.1.3
   google_fonts: 6.3.3
   google_sign_in: 6.3.0
   http: 1.4.0
