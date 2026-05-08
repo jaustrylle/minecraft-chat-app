@@ -1,0 +1,510 @@
+{
+  "Minecraft_Information_lists_Armor": [
+    {
+      "Item_Name": "Helmet",
+      "Material": "Leather",
+      "Armor_Points": "1",
+      "Durability": "55",
+      "How_to_Obtain": "Crafted (5 Leather)",
+      "Where_to_find_it": "Craft, chest, trading",
+      "Find_in_the_wild": "TRUE"
+    },
+    {
+      "Item_Name": "Helmet",
+      "Material": "Chainmail",
+      "Armor_Points": "2",
+      "Durability": "165",
+      "How_to_Obtain": "Dropped by mobs (Zombies/Skeletons)",
+      "Where_to_find_it": "Craft, chest, trading",
+      "Find_in_the_wild": "TRUE"
+    },
+    {
+      "Item_Name": "Helmet",
+      "Material": "Iron",
+      "Armor_Points": "2",
+      "Durability": "165",
+      "How_to_Obtain": "Crafted (5 Iron Ingots)",
+      "Where_to_find_it": "Craft, chest, trading",
+      "Find_in_the_wild": "TRUE"
+    },
+    {
+      "Item_Name": "Helmet",
+      "Material": "Golden",
+      "Armor_Points": "2",
+      "Durability": "77",
+      "How_to_Obtain": "Crafted (5 Gold Ingots)",
+      "Where_to_find_it": "Craft, chest, trading",
+      "Find_in_the_wild": "TRUE"
+    },
+    {
+      "Item_Name": "Helmet",
+      "Material": "Diamond",
+      "Armor_Points": "3",
+      "Durability": "363",
+      "How_to_Obtain": "Crafted (5 Diamonds)",
+      "Where_to_find_it": "Craft, chest, trading",
+      "Find_in_the_wild": "TRUE"
+    },
+    {
+      "Item_Name": "Helmet",
+      "Material": "Netherite",
+      "Armor_Points": "3",
+      "Durability": "407",
+      "How_to_Obtain": "Smithing Table (Diamond Helmet + Upgrade Template)",
+      "Where_to_find_it": "Craft",
+      "Find_in_the_wild": "FALSE"
+    },
+    {
+      "Item_Name": "Chestplate",
+      "Material": "Leather",
+      "Armor_Points": "3",
+      "Durability": "80",
+      "How_to_Obtain": "Crafted (8 Leather)",
+      "Where_to_find_it": "Craft, chest, trading",
+      "Find_in_the_wild": "TRUE"
+    },
+    {
+      "Item_Name": "Chestplate",
+      "Material": "Chainmail",
+      "Armor_Points": "5",
+      "Durability": "240",
+      "How_to_Obtain": "Dropped by mobs",
+      "Where_to_find_it": "Craft, chest, trading",
+      "Find_in_the_wild": "TRUE"
+    },
+    {
+      "Item_Name": "Chestplate",
+      "Material": "Iron",
+      "Armor_Points": "6",
+      "Durability": "240",
+      "How_to_Obtain": "Crafted (8 Iron Ingots)",
+      "Where_to_find_it": "Craft, chest, trading",
+      "Find_in_the_wild": "TRUE"
+    },
+    {
+      "Item_Name": "Chestplate",
+      "Material": "Golden",
+      "Armor_Points": "5",
+      "Durability": "112",
+      "How_to_Obtain": "Crafted (8 Gold Ingots)",
+      "Where_to_find_it": "Craft, chest, trading",
+      "Find_in_the_wild": "TRUE"
+    },
+    {
+      "Item_Name": "Chestplate",
+      "Material": "Diamond",
+      "Armor_Points": "8",
+      "Durability": "528",
+      "How_to_Obtain": "Crafted (8 Diamonds)",
+      "Where_to_find_it": "Craft, chest, trading",
+      "Find_in_the_wild": "TRUE"
+    },
+    {
+      "Item_Name": "Chestplate",
+      "Material": "Netherite",
+      "Armor_Points": "8",
+      "Durability": "592",
+      "How_to_Obtain": "Smithing Table (Diamond Chestplate + Upgrade Template)",
+      "Where_to_find_it": "Craft",
+      "Find_in_the_wild": "FALSE"
+    },
+    {
+      "Item_Name": "Leggings",
+      "Material": "Leather",
+      "Armor_Points": "2",
+      "Durability": "75",
+      "How_to_Obtain": "Crafted (7 Leather)",
+      "Where_to_find_it": "Craft, chest, trading",
+      "Find_in_the_wild": "TRUE"
+    },
+    {
+      "Item_Name": "Leggings",
+      "Material": "Chainmail",
+      "Armor_Points": "4",
+      "Durability": "225",
+      "How_to_Obtain": "Dropped by mobs",
+      "Where_to_find_it": "Craft, chest, trading",
+      "Find_in_the_wild": "TRUE"
+    },
+    {
+      "Item_Name": "Leggings",
+      "Material": "Iron",
+      "Armor_Points": "5",
+      "Durability": "225",
+      "How_to_Obtain": "Crafted (7 Iron Ingots)",
+      "Where_to_find_it": "Craft, chest, trading",
+      "Find_in_the_wild": "TRUE"
+    },
+    {
+      "Item_Name": "Leggings",
+      "Material": "Golden",
+      "Armor_Points": "3",
+      "Durability": "105",
+      "How_to_Obtain": "Crafted (7 Gold Ingots)",
+      "Where_to_find_it": "Craft, chest, trading",
+      "Find_in_the_wild": "TRUE"
+    },
+    {
+      "Item_Name": "Leggings",
+      "Material": "Diamond",
+      "Armor_Points": "6",
+      "Durability": "495",
+      "How_to_Obtain": "Crafted (7 Diamonds)",
+      "Where_to_find_it": "Craft, chest, trading",
+      "Find_in_the_wild": "TRUE"
+    },
+    {
+      "Item_Name": "Leggings",
+      "Material": "Netherite",
+      "Armor_Points": "6",
+      "Durability": "555",
+      "How_to_Obtain": "Smithing Table (Diamond Leggings + Upgrade Template)",
+      "Where_to_find_it": "Craft",
+      "Find_in_the_wild": "FALSE"
+    },
+    {
+      "Item_Name": "Boots",
+      "Material": "Leather",
+      "Armor_Points": "1",
+      "Durability": "65",
+      "How_to_Obtain": "Crafted (4 Leather)",
+      "Where_to_find_it": "Craft, chest, trading",
+      "Find_in_the_wild": "TRUE"
+    },
+    {
+      "Item_Name": "Boots",
+      "Material": "Chainmail",
+      "Armor_Points": "1",
+      "Durability": "195",
+      "How_to_Obtain": "Dropped by mobs",
+      "Where_to_find_it": "Craft, chest, trading",
+      "Find_in_the_wild": "TRUE"
+    },
+    {
+      "Item_Name": "Boots",
+      "Material": "Iron",
+      "Armor_Points": "2",
+      "Durability": "195",
+      "How_to_Obtain": "Crafted (4 Iron Ingots)",
+      "Where_to_find_it": "Craft, chest, trading",
+      "Find_in_the_wild": "TRUE"
+    },
+    {
+      "Item_Name": "Boots",
+      "Material": "Golden",
+      "Armor_Points": "1",
+      "Durability": "91",
+      "How_to_Obtain": "Crafted (4 Gold Ingots)",
+      "Where_to_find_it": "Craft, chest, trading",
+      "Find_in_the_wild": "TRUE"
+    },
+    {
+      "Item_Name": "Boots",
+      "Material": "Diamond",
+      "Armor_Points": "3",
+      "Durability": "429",
+      "How_to_Obtain": "Crafted (5 Diamonds)",
+      "Where_to_find_it": "Craft, chest, trading",
+      "Find_in_the_wild": "TRUE"
+    },
+    {
+      "Item_Name": "Boots",
+      "Material": "Netherite",
+      "Armor_Points": "3",
+      "Durability": "481",
+      "How_to_Obtain": "Smithing Table (Diamond Boots + Upgrade Template)",
+      "Where_to_find_it": "Craft",
+      "Find_in_the_wild": "FALSE"
+    },
+    {
+      "Item_Name": "Shield",
+      "Material": "",
+      "Armor_Points": "Blocks 100%",
+      "Durability": "336",
+      "How_to_Obtain": "Crafted (1 Iron Ingot + 6 Planks)",
+      "Where_to_find_it": "Craft",
+      "Find_in_the_wild": "FALSE"
+    },
+    {
+      "Item_Name": "Wolf Armor",
+      "Material": "",
+      "Armor_Points": "Protects Tamed Wolf",
+      "Durability": "64",
+      "How_to_Obtain": "Crafted (6 Armadillo Scutes)",
+      "Where_to_find_it": "Craft, chest",
+      "Find_in_the_wild": "TRUE"
+    },
+    {
+      "Item_Name": "Turtle Shell",
+      "Material": "",
+      "Armor_Points": "2 Armor / Water Breath",
+      "Durability": "275",
+      "How_to_Obtain": "Crafted (5 Scutes dropped by baby turtles)",
+      "Where_to_find_it": "Craft",
+      "Find_in_the_wild": "FALSE"
+    },
+    {
+      "Item_Name": "Horse Armor",
+      "Material": "Leather",
+      "Armor_Points": "Protects Tamed hourse",
+      "Durability": "Unbreakable",
+      "How_to_Obtain": "Crafted (7 leather)",
+      "Where_to_find_it": "Craft, chest",
+      "Find_in_the_wild": "TRUE"
+    },
+    {
+      "Item_Name": "Horse Armor",
+      "Material": "Iron",
+      "Armor_Points": "",
+      "Durability": "",
+      "How_to_Obtain": "Mob Drops, Trading, fishing, chests",
+      "Where_to_find_it": "",
+      "Find_in_the_wild": "TRUE"
+    }
+  ],
+  "Minecraft_Information_lists_Basic_Useful_Tools": [
+    {
+      "Category": "Basic Tools",
+      "Item_English": "Pickaxe",
+      "Description_Usage": "Used to mine stone and ore-based blocks."
+    },
+    {
+      "Category": "Basic Tools",
+      "Item_English": "Axe",
+      "Description_Usage": "Used to break wood-based blocks and as a weapon."
+    },
+    {
+      "Category": "Basic Tools",
+      "Item_English": "Shovel",
+      "Description_Usage": "Used to dig dirt, sand, gravel, and snow."
+    },
+    {
+      "Category": "Basic Tools",
+      "Item_English": "Hoe",
+      "Description_Usage": "Used to till soil for farming and harvesting leaves."
+    },
+    {
+      "Category": "Mobility",
+      "Item_English": "Elytra",
+      "Description_Usage": "Wings that allow players to glide from high places."
+    },
+    {
+      "Category": "Mobility",
+      "Item_English": "Saddle",
+      "Description_Usage": "Used to ride horses, pigs, striders, and mules."
+    },
+    {
+      "Category": "Mobility",
+      "Item_English": "Boat",
+      "Description_Usage": "A vehicle for traveling across water quickly."
+    },
+    {
+      "Category": "Navigation",
+      "Item_English": "Compass",
+      "Description_Usage": "Points to the world spawn point or a lodestone."
+    },
+    {
+      "Category": "Navigation",
+      "Item_English": "Clock",
+      "Description_Usage": "Displays the current time of the day/night cycle."
+    },
+    {
+      "Category": "Navigation",
+      "Item_English": "Recovery Compass",
+      "Description_Usage": "Points to the location where the player last died."
+    },
+    {
+      "Category": "Utility",
+      "Item_English": "Flint and Steel",
+      "Description_Usage": "Used to light fires or ignite TNT and Portals."
+    },
+    {
+      "Category": "Utility",
+      "Item_English": "Shears",
+      "Description_Usage": "Used to shear sheep, harvest vines, and cobwebs."
+    },
+    {
+      "Category": "Utility",
+      "Item_English": "Bucket",
+      "Description_Usage": "Used to carry water, lava, milk, or powder snow."
+    },
+    {
+      "Category": "Utility",
+      "Item_English": "Spyglass",
+      "Description_Usage": "Used to zoom in on a specific location or object."
+    },
+    {
+      "Category": "Utility",
+      "Item_English": "Lead",
+      "Description_Usage": "Used to tether and lead passive mobs or golems."
+    },
+    {
+      "Category": "Utility",
+      "Item_English": "Bundles",
+      "Description_Usage": "Can store up to a stack's worth of mixed item types."
+    },
+    {
+      "Category": "Explosives",
+      "Item_English": "TNT",
+      "Description_Usage": "An explosive block ignited by redstone or fire."
+    },
+    {
+      "Category": "Other",
+      "Item_English": "Fishing Rod",
+      "Description_Usage": "Used to catch fish, items, or pull entities."
+    },
+    {
+      "Category": "Other",
+      "Item_English": "Brush",
+      "Description_Usage": "Used in Archaeology to brush blocks like Suspicious Sand."
+    }
+  ],
+  "Minecraft_Information_lists_Building_Blocks_V2": [
+    {
+      "Types": "Trees",
+      "Block_Name": "Oak",
+      "Use": "Building, Crafting",
+      "Drops": "Itself",
+      "Flammable": "Yes",
+      "Variations": "Log, Plank, Slab, etc.",
+      "Biome_found_in": "Plains, Forest",
+      "Durability": 2.00,
+      "Size": 1.00,
+      "Difficulty_to_find": "Very Low",
+      "Mineable": "Axe",
+      "Renewable": "Yes",
+      "How_to_obtain_it": "Chopping Oak trees",
+      "Find_in_the_wild": "Most Overworld biomes"
+    },
+    {
+      "Types": "Trees",
+      "Block_Name": "Birch",
+      "Use": "Building, Crafting",
+      "Drops": "Itself",
+      "Flammable": "Yes",
+      "Variations": "Log, Plank, Slab, etc.",
+      "Biome_found_in": "Birch Forest",
+      "Durability": 2.00,
+      "Size": 1.00,
+      "Difficulty_to_find": "Low",
+      "Mineable": "Axe",
+      "Renewable": "Yes",
+      "How_to_obtain_it": "Chopping Birch trees",
+      "Find_in_the_wild": "Birch Forests"
+    },
+    {
+      "Types": "Trees",
+      "Block_Name": "Spruce",
+      "Use": "Building, Crafting",
+      "Drops": "Itself",
+      "Flammable": "Yes",
+      "Variations": "Log, Plank, Slab, etc.",
+      "Biome_found_in": "Taiga, Snowy biomes",
+      "Durability": 2.00,
+      "Size": 1.00,
+      "Difficulty_to_find": "Low",
+      "Mineable": "Axe",
+      "Renewable": "Yes",
+      "How_to_obtain_it": "Chopping Spruce trees",
+      "Find_in_the_wild": "Taiga, Snowy biomes"
+    },
+    {
+      "Types": "Trees",
+      "Block_Name": "Stone",
+      "Use": "Building, Crafting",
+      "Drops": "Cobblestone",
+      "Flammable": "No",
+      "Variations": "Smooth, Infested",
+      "Biome_found_in": "Underground",
+      "Durability": 1.50,
+      "Size": 1.00,
+      "Difficulty_to_find": "Very Low",
+      "Mineable": "Pickaxe",
+      "Renewable": "Yes",
+      "How_to_obtain_it": "Mining with Silk Touch",
+      "Find_in_the_wild": "Everywhere Underground"
+    },
+    {
+      "Types": "Trees",
+      "Block_Name": "Deepslate",
+      "Use": "Building, Decor",
+      "Drops": "Cobbled Deepslate",
+      "Flammable": "No",
+      "Variations": "Polished, Bricks",
+      "Biome_found_in": "Underground",
+      "Durability": 3.00,
+      "Size": 1.00,
+      "Difficulty_to_find": "Low",
+      "Mineable": "Pickaxe",
+      "Renewable": "No",
+      "How_to_obtain_it": "Mining below Y=0",
+      "Find_in_the_wild": "Deep Underground"
+    }
+  ],
+  "Minecraft_Information_lists_Mobs": [
+    {
+      "Name": "Allay",
+      "Hostile": "FALSE",
+      "Pacifist": "TRUE",
+      "Neutral": "FALSE",
+      "Health": "20 HP",
+      "Attack_Strength": "0 HP",
+      "Size": "Height: 0.6 blocks",
+      "Weaknesses": "Environmental Hazards",
+      "Facts": "Allays cannot be harmed by their interacting owners."
+    },
+    {
+      "Name": "Armadillo",
+      "Hostile": "FALSE",
+      "Pacifist": "TRUE",
+      "Neutral": "FALSE",
+      "Health": "12 HP",
+      "Attack_Strength": "0 HP",
+      "Size": "Height: 0.65 blocks",
+      "Weaknesses": "Hostile Mobs",
+      "Facts": "When an armadillo is rolled up it does not walk."
+    },
+    {
+      "Name": "Creeper",
+      "Hostile": "TRUE",
+      "Pacifist": "FALSE",
+      "Neutral": "FALSE",
+      "Health": "20 HP",
+      "Attack_Strength": "Explosion",
+      "Size": "1.7 blocks",
+      "Weaknesses": "Cats, Ocelots",
+      "Facts": "Silent stalker that explodes when close; afraid of all feline mobs."
+    },
+    {
+      "Name": "Warden",
+      "Hostile": "TRUE",
+      "Pacifist": "FALSE",
+      "Neutral": "FALSE",
+      "Health": "500 HP",
+      "Attack_Strength": "30~45 HP",
+      "Size": "2.9 blocks",
+      "Weaknesses": "None (Sonic Boom)",
+      "Facts": "Protects the Ancient City; can sniff players out."
+    }
+  ],
+  "Minecraft_Information_lists_Enchantments": [
+    {
+      "Name": "Mending",
+      "Max_Level": "I",
+      "Primary_Applied_To": "Any (Durable)",
+      "Effects_Description": "Uses XP orbs to repair the item's durability."
+    },
+    {
+      "Name": "Sharpness",
+      "Max_Level": "V",
+      "Primary_Applied_To": "Sword, Axe",
+      "Effects_Description": "Increases melee damage to all mobs."
+    },
+    {
+      "Name": "Silk Touch",
+      "Max_Level": "I",
+      "Primary_Applied_To": "Tools",
+      "Effects_Description": "Causes blocks to drop themselves instead of their usual items."
+    }
+  ]
+}
